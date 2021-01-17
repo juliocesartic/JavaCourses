@@ -202,6 +202,37 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"juliodev\",\n    \"password\":\"Abcd1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/platzi-market/api/auth/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"platzi-market",
+						"api",
+						"auth",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
